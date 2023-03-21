@@ -1,9 +1,9 @@
 #include "dog.h"
 #include <stdlib.h>
 
-int _strien(char *str);
+int _strlen(char *str);
 char *_strcopy(char *dest, char *src);
-dog_ *new_dog(char *name, float age, char *owner);
+dog_t *new_dog(char *name, float age, char *owner);
 
 /**
  * _strlen - finds the length of a string.
