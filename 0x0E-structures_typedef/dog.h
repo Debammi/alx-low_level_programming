@@ -7,12 +7,12 @@
  * @owner: owner
  * Description: This struct is for dog
  */
- 
+
 struct dog
 {
 	char *name;
-        float age;
-        char *owner;
+	float age;
+	char *owner;
 };
 
 typedef struct dog dog_t;
